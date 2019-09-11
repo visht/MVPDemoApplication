@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity implements ViewMvp {
         mainActivityPresenter = new MainActivityPresenter(this);
         tv = findViewById(R.id.text);
         mainActivityPresenter.updateName("Vishal");
+        
         mainActivityPresenter.updateAge("24");
     }
 
